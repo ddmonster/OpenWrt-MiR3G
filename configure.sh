@@ -13,7 +13,7 @@ echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-inf
 # passwall
 #echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
 #echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;main" >> feeds.conf.default
-
+echo "arc-git oppackage https://github.com/xuanranran/openwrt-package.git;master" >> feeds.conf.default
 # 替换默认主题
 rm -rf package/lean/luci-theme-argon 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
